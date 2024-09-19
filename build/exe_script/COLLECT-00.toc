@@ -1,0 +1,899 @@
+([('exe_script.exe',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\build\\exe_script\\exe_script.exe',
+   'EXECUTABLE'),
+  ('python312.dll',
+   'C:\\Users\\Mounir\\AppData\\Local\\Programs\\Python\\Python312\\python312.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Users\\Mounir\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Mounir\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\Mounir\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Mounir\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Mounir\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\Mounir\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Mounir\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Mounir\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\Mounir\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('dependencies\\data\\data.xlsx',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\data\\data.xlsx',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\ElasticNet '
+   'Regression_init4_fold4_model5.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\ElasticNet '
+   'Regression_init4_fold4_model5.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\ElasticNet '
+   'Regression_multi_output_PARAFAC_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\ElasticNet '
+   'Regression_multi_output_PARAFAC_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Gradient '
+   'Boosting_init5_fold1_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Gradient '
+   'Boosting_init5_fold1_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Gradient '
+   'Boosting_multi_output_PARAFAC_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Gradient '
+   'Boosting_multi_output_PARAFAC_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Lasso '
+   'Regression_init4_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Lasso '
+   'Regression_init4_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Lasso '
+   'Regression_multi_output_PARAFAC_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Lasso '
+   'Regression_multi_output_PARAFAC_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Linear '
+   'Regression_init4_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Linear '
+   'Regression_init4_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Linear '
+   'Regression_multi_output_PARAFAC_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Linear '
+   'Regression_multi_output_PARAFAC_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Neural '
+   'Network_init5_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Neural '
+   'Network_init5_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Neural '
+   'Network_multi_output_PARAFAC_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Neural '
+   'Network_multi_output_PARAFAC_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Random '
+   'Forest_init9_fold5_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Random '
+   'Forest_init9_fold5_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Random '
+   'Forest_multi_output_PARAFAC_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Random '
+   'Forest_multi_output_PARAFAC_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Ridge '
+   'Regression_init4_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Ridge '
+   'Regression_init4_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Ridge '
+   'Regression_multi_output_PARAFAC_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Ridge '
+   'Regression_multi_output_PARAFAC_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Support Vector '
+   'Regressor_init4_fold4_model18.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Support '
+   'Vector Regressor_init4_fold4_model18.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Support Vector '
+   'Regressor_multi_output_PARAFAC_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\Support '
+   'Vector Regressor_multi_output_PARAFAC_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\XGBoost_init9_fold5_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\XGBoost_init9_fold5_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_pH_results\\XGBoost_multi_output_PARAFAC_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_pH_results\\XGBoost_multi_output_PARAFAC_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\ElasticNet '
+   'Regression_init4_fold4_model5.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\ElasticNet '
+   'Regression_init4_fold4_model5.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\ElasticNet '
+   'Regression_multi_output_PARAFAC_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\ElasticNet '
+   'Regression_multi_output_PARAFAC_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Gradient '
+   'Boosting_init9_fold5_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Gradient '
+   'Boosting_init9_fold5_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Gradient '
+   'Boosting_multi_output_PARAFAC_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Gradient '
+   'Boosting_multi_output_PARAFAC_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Lasso '
+   'Regression_init4_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Lasso '
+   'Regression_init4_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Lasso '
+   'Regression_multi_output_PARAFAC_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Lasso '
+   'Regression_multi_output_PARAFAC_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Linear '
+   'Regression_init4_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Linear '
+   'Regression_init4_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Linear '
+   'Regression_multi_output_PARAFAC_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Linear '
+   'Regression_multi_output_PARAFAC_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Neural '
+   'Network_init8_fold3_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Neural '
+   'Network_init8_fold3_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Neural '
+   'Network_multi_output_PARAFAC_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Neural '
+   'Network_multi_output_PARAFAC_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Random '
+   'Forest_init9_fold5_model15.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Random '
+   'Forest_init9_fold5_model15.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Random '
+   'Forest_multi_output_PARAFAC_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Random '
+   'Forest_multi_output_PARAFAC_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Ridge '
+   'Regression_init4_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Ridge '
+   'Regression_init4_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Ridge '
+   'Regression_multi_output_PARAFAC_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Ridge '
+   'Regression_multi_output_PARAFAC_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Support Vector '
+   'Regressor_init4_fold4_model18.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Support '
+   'Vector Regressor_init4_fold4_model18.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\Support Vector '
+   'Regressor_multi_output_PARAFAC_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\Support '
+   'Vector Regressor_multi_output_PARAFAC_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\XGBoost_init2_fold4_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\XGBoost_init2_fold4_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_Br_results\\XGBoost_multi_output_PARAFAC_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_Br_results\\XGBoost_multi_output_PARAFAC_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\ElasticNet '
+   'Regression_init4_fold4_model10.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\ElasticNet '
+   'Regression_init4_fold4_model10.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\ElasticNet '
+   'Regression_multi_output_PARAFAC_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\ElasticNet '
+   'Regression_multi_output_PARAFAC_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Gradient '
+   'Boosting_init5_fold1_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Gradient '
+   'Boosting_init5_fold1_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Gradient '
+   'Boosting_multi_output_PARAFAC_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Gradient '
+   'Boosting_multi_output_PARAFAC_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Lasso '
+   'Regression_init4_fold4_model2.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Lasso '
+   'Regression_init4_fold4_model2.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Lasso '
+   'Regression_multi_output_PARAFAC_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Lasso '
+   'Regression_multi_output_PARAFAC_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Linear '
+   'Regression_init4_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Linear '
+   'Regression_init4_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Linear '
+   'Regression_multi_output_PARAFAC_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Linear '
+   'Regression_multi_output_PARAFAC_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Neural '
+   'Network_init6_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Neural '
+   'Network_init6_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Neural '
+   'Network_multi_output_PARAFAC_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Neural '
+   'Network_multi_output_PARAFAC_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Random '
+   'Forest_init9_fold5_model3.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Random '
+   'Forest_init9_fold5_model3.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Random '
+   'Forest_multi_output_PARAFAC_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Random '
+   'Forest_multi_output_PARAFAC_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Ridge '
+   'Regression_init4_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Ridge '
+   'Regression_init4_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Ridge '
+   'Regression_multi_output_PARAFAC_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Ridge '
+   'Regression_multi_output_PARAFAC_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Support Vector '
+   'Regressor_init4_fold4_model18.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Support '
+   'Vector Regressor_init4_fold4_model18.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\Support Vector '
+   'Regressor_multi_output_PARAFAC_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\Support '
+   'Vector Regressor_multi_output_PARAFAC_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\XGBoost_init9_fold5_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\XGBoost_init9_fold5_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_pH_results\\XGBoost_multi_output_PARAFAC_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_pH_results\\XGBoost_multi_output_PARAFAC_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\ElasticNet '
+   'Regression_init4_fold4_model5.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\ElasticNet '
+   'Regression_init4_fold4_model5.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\ElasticNet '
+   'Regression_multi_output_PARAFAC_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\ElasticNet '
+   'Regression_multi_output_PARAFAC_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Gradient '
+   'Boosting_init9_fold5_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Gradient '
+   'Boosting_init9_fold5_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Gradient '
+   'Boosting_multi_output_PARAFAC_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Gradient '
+   'Boosting_multi_output_PARAFAC_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Lasso '
+   'Regression_init4_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Lasso '
+   'Regression_init4_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Lasso '
+   'Regression_multi_output_PARAFAC_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Lasso '
+   'Regression_multi_output_PARAFAC_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Linear '
+   'Regression_init4_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Linear '
+   'Regression_init4_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Linear '
+   'Regression_multi_output_PARAFAC_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Linear '
+   'Regression_multi_output_PARAFAC_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Neural '
+   'Network_init8_fold3_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Neural '
+   'Network_init8_fold3_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Neural '
+   'Network_multi_output_PARAFAC_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Neural '
+   'Network_multi_output_PARAFAC_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Random '
+   'Forest_init9_fold5_model13.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Random '
+   'Forest_init9_fold5_model13.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Random '
+   'Forest_multi_output_PARAFAC_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Random '
+   'Forest_multi_output_PARAFAC_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Ridge '
+   'Regression_init4_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Ridge '
+   'Regression_init4_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Ridge '
+   'Regression_multi_output_PARAFAC_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Ridge '
+   'Regression_multi_output_PARAFAC_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Support Vector '
+   'Regressor_init4_fold4_model18.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Support '
+   'Vector Regressor_init4_fold4_model18.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\Support Vector '
+   'Regressor_multi_output_PARAFAC_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\Support '
+   'Vector Regressor_multi_output_PARAFAC_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\XGBoost_init2_fold4_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\XGBoost_init2_fold4_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_PARAFAC_results\\XGBoost_multi_output_PARAFAC_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_PARAFAC_results\\XGBoost_multi_output_PARAFAC_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\ElasticNet '
+   'Regression_init10_fold5_model26.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\ElasticNet '
+   'Regression_init10_fold5_model26.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\ElasticNet '
+   'Regression_multi_output_SUVA_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\ElasticNet '
+   'Regression_multi_output_SUVA_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Gradient '
+   'Boosting_init6_fold3_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Gradient '
+   'Boosting_init6_fold3_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Gradient '
+   'Boosting_multi_output_SUVA_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Gradient '
+   'Boosting_multi_output_SUVA_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Lasso '
+   'Regression_init10_fold5_model3.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Lasso '
+   'Regression_init10_fold5_model3.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Lasso '
+   'Regression_multi_output_SUVA_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Lasso '
+   'Regression_multi_output_SUVA_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Linear '
+   'Regression_init10_fold5_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Linear '
+   'Regression_init10_fold5_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Linear '
+   'Regression_multi_output_SUVA_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Linear '
+   'Regression_multi_output_SUVA_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Neural '
+   'Network_init1_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Neural '
+   'Network_init1_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Neural '
+   'Network_multi_output_SUVA_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Neural '
+   'Network_multi_output_SUVA_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Random '
+   'Forest_init9_fold5_model8.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Random '
+   'Forest_init9_fold5_model8.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Random '
+   'Forest_multi_output_SUVA_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Random '
+   'Forest_multi_output_SUVA_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Ridge '
+   'Regression_init10_fold5_model10.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Ridge '
+   'Regression_init10_fold5_model10.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Ridge '
+   'Regression_multi_output_SUVA_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Ridge '
+   'Regression_multi_output_SUVA_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Support Vector '
+   'Regressor_init4_fold4_model17.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Support '
+   'Vector Regressor_init4_fold4_model17.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\Support Vector '
+   'Regressor_multi_output_SUVA_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\Support '
+   'Vector Regressor_multi_output_SUVA_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\XGBoost_init7_fold4_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\XGBoost_init7_fold4_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_pH_results\\XGBoost_multi_output_SUVA_Br_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_pH_results\\XGBoost_multi_output_SUVA_Br_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\ElasticNet '
+   'Regression_init10_fold5_model21.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\ElasticNet '
+   'Regression_init10_fold5_model21.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\ElasticNet '
+   'Regression_multi_output_SUVA_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\ElasticNet '
+   'Regression_multi_output_SUVA_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Gradient '
+   'Boosting_init7_fold4_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Gradient '
+   'Boosting_init7_fold4_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Gradient '
+   'Boosting_multi_output_SUVA_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Gradient '
+   'Boosting_multi_output_SUVA_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Lasso '
+   'Regression_init10_fold5_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Lasso '
+   'Regression_init10_fold5_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Lasso '
+   'Regression_multi_output_SUVA_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Lasso '
+   'Regression_multi_output_SUVA_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Linear '
+   'Regression_init10_fold5_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Linear '
+   'Regression_init10_fold5_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Linear '
+   'Regression_multi_output_SUVA_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Linear '
+   'Regression_multi_output_SUVA_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Neural '
+   'Network_init4_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Neural '
+   'Network_init4_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Neural '
+   'Network_multi_output_SUVA_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Neural '
+   'Network_multi_output_SUVA_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Random '
+   'Forest_init9_fold5_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Random '
+   'Forest_init9_fold5_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Random '
+   'Forest_multi_output_SUVA_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Random '
+   'Forest_multi_output_SUVA_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Ridge '
+   'Regression_init10_fold5_model10.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Ridge '
+   'Regression_init10_fold5_model10.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Ridge '
+   'Regression_multi_output_SUVA_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Ridge '
+   'Regression_multi_output_SUVA_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Support Vector '
+   'Regressor_init4_fold4_model17.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Support '
+   'Vector Regressor_init4_fold4_model17.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\Support Vector '
+   'Regressor_multi_output_SUVA_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\Support '
+   'Vector Regressor_multi_output_SUVA_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\XGBoost_init7_fold4_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\XGBoost_init7_fold4_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_Br_results\\XGBoost_multi_output_SUVA_Br_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_Br_results\\XGBoost_multi_output_SUVA_Br_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\ElasticNet '
+   'Regression_init7_fold3_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\ElasticNet '
+   'Regression_init7_fold3_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\ElasticNet '
+   'Regression_multi_output_SUVA_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\ElasticNet '
+   'Regression_multi_output_SUVA_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Gradient '
+   'Boosting_init5_fold1_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Gradient '
+   'Boosting_init5_fold1_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Gradient '
+   'Boosting_multi_output_SUVA_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Gradient '
+   'Boosting_multi_output_SUVA_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Lasso '
+   'Regression_init7_fold3_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Lasso '
+   'Regression_init7_fold3_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Lasso '
+   'Regression_multi_output_SUVA_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Lasso '
+   'Regression_multi_output_SUVA_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Linear '
+   'Regression_init7_fold3_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Linear '
+   'Regression_init7_fold3_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Linear '
+   'Regression_multi_output_SUVA_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Linear '
+   'Regression_multi_output_SUVA_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Neural '
+   'Network_init5_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Neural '
+   'Network_init5_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Neural '
+   'Network_multi_output_SUVA_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Neural '
+   'Network_multi_output_SUVA_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Random '
+   'Forest_init5_fold2_model8.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Random '
+   'Forest_init5_fold2_model8.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Random '
+   'Forest_multi_output_SUVA_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Random '
+   'Forest_multi_output_SUVA_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Ridge '
+   'Regression_init7_fold3_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Ridge '
+   'Regression_init7_fold3_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Ridge '
+   'Regression_multi_output_SUVA_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Ridge '
+   'Regression_multi_output_SUVA_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Support Vector '
+   'Regressor_init4_fold4_model17.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Support '
+   'Vector Regressor_init4_fold4_model17.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\Support Vector '
+   'Regressor_multi_output_SUVA_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\Support '
+   'Vector Regressor_multi_output_SUVA_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\XGBoost_init7_fold4_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\XGBoost_init7_fold4_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_pH_results\\XGBoost_multi_output_SUVA_pH_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_pH_results\\XGBoost_multi_output_SUVA_pH_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\ElasticNet '
+   'Regression_init1_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\ElasticNet '
+   'Regression_init1_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\ElasticNet '
+   'Regression_multi_output_SUVA_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\ElasticNet '
+   'Regression_multi_output_SUVA_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Gradient '
+   'Boosting_init5_fold1_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Gradient '
+   'Boosting_init5_fold1_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Gradient '
+   'Boosting_multi_output_SUVA_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Gradient '
+   'Boosting_multi_output_SUVA_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Lasso '
+   'Regression_init1_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Lasso '
+   'Regression_init1_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Lasso '
+   'Regression_multi_output_SUVA_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Lasso '
+   'Regression_multi_output_SUVA_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Linear '
+   'Regression_init1_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Linear '
+   'Regression_init1_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Linear '
+   'Regression_multi_output_SUVA_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Linear '
+   'Regression_multi_output_SUVA_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Neural '
+   'Network_init9_fold4_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Neural '
+   'Network_init9_fold4_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Neural '
+   'Network_multi_output_SUVA_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Neural '
+   'Network_multi_output_SUVA_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Random '
+   'Forest_init9_fold5_model15.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Random '
+   'Forest_init9_fold5_model15.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Random '
+   'Forest_multi_output_SUVA_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Random '
+   'Forest_multi_output_SUVA_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Ridge '
+   'Regression_init1_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Ridge '
+   'Regression_init1_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Ridge '
+   'Regression_multi_output_SUVA_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Ridge '
+   'Regression_multi_output_SUVA_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Support Vector '
+   'Regressor_init10_fold3_model17.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Support '
+   'Vector Regressor_init10_fold3_model17.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\Support Vector '
+   'Regressor_multi_output_SUVA_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\Support '
+   'Vector Regressor_multi_output_SUVA_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\XGBoost_init5_fold1_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\XGBoost_init5_fold1_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_SUVA_results\\XGBoost_multi_output_SUVA_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_SUVA_results\\XGBoost_multi_output_SUVA_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\ElasticNet '
+   'Regression_init1_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\ElasticNet '
+   'Regression_init1_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\ElasticNet '
+   'Regression_multi_output_breakpoint_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\ElasticNet '
+   'Regression_multi_output_breakpoint_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Gradient '
+   'Boosting_init9_fold3_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Gradient '
+   'Boosting_init9_fold3_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Gradient '
+   'Boosting_multi_output_breakpoint_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Gradient '
+   'Boosting_multi_output_breakpoint_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Lasso '
+   'Regression_init1_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Lasso '
+   'Regression_init1_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Lasso '
+   'Regression_multi_output_breakpoint_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Lasso '
+   'Regression_multi_output_breakpoint_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Linear '
+   'Regression_init1_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Linear '
+   'Regression_init1_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Linear '
+   'Regression_multi_output_breakpoint_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Linear '
+   'Regression_multi_output_breakpoint_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Neural '
+   'Network_init8_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Neural '
+   'Network_init8_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Neural '
+   'Network_multi_output_breakpoint_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Neural '
+   'Network_multi_output_breakpoint_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Random '
+   'Forest_init9_fold5_model3.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Random '
+   'Forest_init9_fold5_model3.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Random '
+   'Forest_multi_output_breakpoint_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Random '
+   'Forest_multi_output_breakpoint_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Ridge '
+   'Regression_init1_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Ridge '
+   'Regression_init1_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Ridge '
+   'Regression_multi_output_breakpoint_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Ridge '
+   'Regression_multi_output_breakpoint_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Support Vector '
+   'Regressor_init7_fold5_model19.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Support '
+   'Vector Regressor_init7_fold5_model19.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\Support Vector '
+   'Regressor_multi_output_breakpoint_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\Support '
+   'Vector Regressor_multi_output_breakpoint_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\XGBoost_init9_fold3_model12.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\XGBoost_init9_fold3_model12.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_breakpoint_results\\XGBoost_multi_output_breakpoint_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_breakpoint_results\\XGBoost_multi_output_breakpoint_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\ElasticNet '
+   'Regression_init1_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\ElasticNet '
+   'Regression_init1_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\ElasticNet '
+   'Regression_multi_output_cl2_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\ElasticNet '
+   'Regression_multi_output_cl2_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Gradient '
+   'Boosting_init8_fold2_model2.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Gradient '
+   'Boosting_init8_fold2_model2.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Gradient '
+   'Boosting_multi_output_cl2_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Gradient '
+   'Boosting_multi_output_cl2_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Lasso '
+   'Regression_init1_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Lasso '
+   'Regression_init1_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Lasso '
+   'Regression_multi_output_cl2_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Lasso '
+   'Regression_multi_output_cl2_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Linear '
+   'Regression_init1_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Linear '
+   'Regression_init1_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Linear '
+   'Regression_multi_output_cl2_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Linear '
+   'Regression_multi_output_cl2_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Neural '
+   'Network_init8_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Neural '
+   'Network_init8_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Neural '
+   'Network_multi_output_cl2_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Neural '
+   'Network_multi_output_cl2_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Random '
+   'Forest_init8_fold2_model4.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Random '
+   'Forest_init8_fold2_model4.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Random '
+   'Forest_multi_output_cl2_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Random '
+   'Forest_multi_output_cl2_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Ridge '
+   'Regression_init1_fold2_model1.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Ridge '
+   'Regression_init1_fold2_model1.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Ridge '
+   'Regression_multi_output_cl2_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Ridge '
+   'Regression_multi_output_cl2_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Support Vector '
+   'Regressor_init10_fold4_model19.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Support '
+   'Vector Regressor_init10_fold4_model19.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\Support Vector '
+   'Regressor_multi_output_cl2_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\Support '
+   'Vector Regressor_multi_output_cl2_results.csv',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\XGBoost_init8_fold2_model5.joblib',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\XGBoost_init8_fold2_model5.joblib',
+   'DATA'),
+  ('dependencies\\model_multi_output_cl2_results\\XGBoost_multi_output_cl2_results.csv',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\dependencies\\model_multi_output_cl2_results\\XGBoost_multi_output_cl2_results.csv',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\Mounir\\Desktop\\piton\\prejkt\\dash_app\\build\\exe_script\\base_library.zip',
+   'DATA')],)
