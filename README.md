@@ -111,7 +111,7 @@ python app.py
 # Running the application using the run script
 
 ## Windows
-click on the run.bat file
+click on the run_WINDOWS.bat file
 
 ## Linux 
 Run it via the command line 
