@@ -105,3 +105,16 @@ python app.py
 
 - Always activate your virtual environment before running the application.
 - Make sure to keep your `requirements.txt` up to date by running `pip freeze > requirements.txt` whenever new packages are added.
+
+
+
+# Running the application using the run script
+
+## Windows
+click on the run.bat file
+
+## Linux 
+Run it via the command line 
+```
+./run.bash
+```
