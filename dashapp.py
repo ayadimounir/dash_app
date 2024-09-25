@@ -6,6 +6,7 @@ from dash import Dash, html, dcc
 from dash.dependencies import Output, Input, State, ALL
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
+from pathlib import Path
 
 # Define folders and their corresponding features
 folders_and_features = {
@@ -43,10 +44,10 @@ def find_model_file(folder: str, model_name: str, folder_name: str) -> str:
     if folder_name.startswith("model_"):
         folder_name = folder_name[len("model_"):]
     filename = f"{model_name}_{folder_name}.csv"
-    file_path = os.path.join(folder, filename)
+    file_path = Path(folder) / filename
 
-    if os.path.exists(file_path):
-        return file_path
+    if file_path.exists():
+        return str(file_path)  # Convert Path object to string if necessary
     else:
         raise FileNotFoundError(f"File {file_path} not found.")
 
@@ -289,7 +290,7 @@ def perform_prediction(selected_equation, selected_model_name, selected_target_v
     grid_df = pd.DataFrame(df_list)
 
     # Load the model
-    model_folder_path = os.path.join("./dependencies", selected_equation)
+    model_folder_path = Path("./dependencies") / selected_equation
     try:
         csv_path = find_model_file(model_folder_path, selected_model_name, selected_equation)
     except FileNotFoundError:
@@ -305,10 +306,10 @@ def perform_prediction(selected_equation, selected_model_name, selected_target_v
     best_model_fold_id = int(best_model_row['fold_id'])
 
     parent_dir = os.path.dirname(model_folder_path)
-    best_model_full_path = os.path.join(parent_dir, best_model_path)
+    best_model_full_path = Path(parent_dir) / best_model_path
 
-    if not os.path.exists(best_model_full_path):
-        return go.Figure(), camera_data
+    if not best_model_full_path.exists():
+     return go.Figure(), camera_data
 
     best_model = joblib.load(best_model_full_path)
 
