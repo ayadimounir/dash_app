@@ -1,1 +1,1 @@
-web: gunicorn byproducts-predictor:server
+web: gunicorn app:server
