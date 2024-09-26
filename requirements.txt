@@ -72,7 +72,7 @@ namex==0.0.8
 nbformat==5.10.4
 neptune==1.10.4
 nest-asyncio==1.6.0
-numpy==1.26.4
+numpy==1.26.0
 oauthlib==3.2.2
 openpyxl==3.1.4
 opt-einsum==3.3.0
@@ -111,7 +111,7 @@ rich==13.7.1
 rpds-py==0.18.1
 s3transfer==0.10.1
 scikit-learn==1.5.0
-scipy==1.13.1
+scipy==1.14.1
 seaborn==0.13.2
 setuptools==70.0.0
 simplejson==3.19.2
