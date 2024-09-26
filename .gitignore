@@ -1,1 +1,4 @@
-/dashapp copy.py
+venv
+*.pyc
+.DS_Store
+.env
