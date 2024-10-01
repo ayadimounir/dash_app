@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 from pathlib import Path
 
 # Register the page
-dash.register_page(__name__, path='/visualization', name='Visualization')
+dash.register_page(__name__, path='/visualisation', name='Visualisation')
 
 
 # Define folders and their corresponding features
