@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 import joblib
+import dash
 from dash import Dash, html, dcc
 from dash.dependencies import Output, Input, State, ALL
 import dash_bootstrap_components as dbc
@@ -84,11 +85,6 @@ actual_data = pd.get_dummies(actual_data, columns=['eau'])
 
 
 
-
-
-
-
-
 # Define reasonable default ranges for the features
 feature_ranges = {
     'temps': (0, 60),
@@ -114,10 +110,26 @@ feature_ranges = {
 
 
 
+
+
+
 # Initialize the Dash app
-app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], use_pages=True)
 
 server = app.server
+
+#navigation links to other pages
+
+navigation_links = html.Div(
+    [
+        dcc.Link(
+            f"{page['name']}", href=page["relative_path"], style={'margin': '10px'}
+        )
+        for page in dash.page_registry.values()
+    ],
+    style={'textAlign': 'center', 'padding': '20px'}
+)
+
 
 # Define the app layout
 app.layout = dbc.Container([
@@ -129,8 +141,12 @@ app.layout = dbc.Container([
         "By Mounir AYADI",
         style={'textAlign': 'center', 'font-size': '1rem'}
     ),
-    html.Hr(),
-    dbc.Row([
+    html.Hr(
+
+    ),
+    navigation_links,
+    dbc.Row(
+        [
         dbc.Col([
             html.Label("Select prediction parameters:", style={'font-size': '0.85rem'}),
             dcc.Dropdown(
@@ -174,7 +190,9 @@ app.layout = dbc.Container([
             dcc.Graph(id='prediction-graph', style={'height': '125vh'}),
             dcc.Store(id='camera-store')  # Store to keep camera state
         ], width=9)
-    ], align='start')
+    ], align='start'
+    ),
+    dash.page_container 
 ], fluid=True)
 
 # Callback to update feature dropdowns based on selected equation
