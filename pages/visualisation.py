@@ -109,16 +109,11 @@ feature_ranges = {
 
 
 
+
+
+
 # Define the app layout
 layout = dbc.Container([
-    html.H1(
-        "Chlorine Byproducts Prediction by Machine Learning",
-        style={'textAlign': 'center', 'font-size': '2rem'}
-    ),
-    html.H2(
-        "By Mounir AYADI",
-        style={'textAlign': 'center', 'font-size': '1rem'}
-    ),
     html.Hr(),
     dbc.Row(
         [
