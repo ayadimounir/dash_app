@@ -143,7 +143,8 @@ layout = dbc.Container([
                         for idx, eq in enumerate(folders_and_features.keys())
                     ],
                     value=list(folders_and_features.keys())[0],
-                    style=dropdown_style
+                    style=dropdown_style,
+                    className='custom-dropdown'  # Add this class for custom styling
                 ),
                 html.Br(),
                 
@@ -155,7 +156,8 @@ layout = dbc.Container([
                         for idx, model in enumerate(models)
                     ],
                     value=models[0],
-                    style=dropdown_style
+                    style=dropdown_style,
+                    className='custom-dropdown'  # Add this class for custom styling
                 ),
                 html.Br(),
                 
@@ -167,21 +169,24 @@ layout = dbc.Container([
                         for idx, target in enumerate(target_variables)
                     ],
                     value=target_variables[0],
-                    style=dropdown_style
+                    style=dropdown_style,
+                    className='custom-dropdown'  # Add this class for custom styling
                 ),
                 html.Br(),
                 
                 html.Label("Select X-axis Feature:", style=label_style),
                 dcc.Dropdown(
                     id='x-feature-dropdown',
-                    style=dropdown_style
+                    style=dropdown_style,
+                    className='custom-dropdown'  # Add this class for custom styling
                 ),
                 html.Br(),
                 
                 html.Label("Select Y-axis Feature:", style=label_style),
                 dcc.Dropdown(
                     id='y-feature-dropdown',
-                    style=dropdown_style
+                    style=dropdown_style,
+                    className='custom-dropdown'  # Add this class for custom styling
                 ),
                 html.Br(),
                 
@@ -198,6 +203,7 @@ layout = dbc.Container([
         align='start'
     ),
 ], fluid=True)
+
 # Define your callbacks here
 
 # Callback to update feature dropdowns based on selected equation
