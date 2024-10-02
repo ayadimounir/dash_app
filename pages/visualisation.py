@@ -112,58 +112,92 @@ feature_ranges = {
 
 
 
+# Define custom styles for dropdowns with CSS class
+dropdown_style = {
+    'backgroundColor': '#2C3E50',
+    'color': '#ffffff',
+    'font-size': '0.85rem',
+    'border': '1px solid #445566',
+    'borderRadius': '4px',
+    'height': '38px',
+}
+
+# Define styles for labels
+label_style = {
+    'font-size': '0.85rem',
+    'color': 'white',
+    'marginBottom': '5px'
+}
+
 # Define the app layout
 layout = dbc.Container([
     html.Hr(),
     dbc.Row(
         [
             dbc.Col([
-                html.Label("Select prediction parameters:", style={'font-size': '0.85rem'}),
+                html.Label("Select prediction parameters:", style=label_style),
                 dcc.Dropdown(
                     id='equation-dropdown',
-                    options=[{'label': f"{idx+1} - \"{eq}\"", 'value': eq} for idx, eq in enumerate(folders_and_features.keys())],
+                    options=[
+                        {'label': f"{idx+1} - \"{eq}\"", 'value': eq} 
+                        for idx, eq in enumerate(folders_and_features.keys())
+                    ],
                     value=list(folders_and_features.keys())[0],
-                    style={'font-size': '0.85rem', 'height': '25px', 'padding': '5px'}
+                    style=dropdown_style
                 ),
                 html.Br(),
-                html.Label("Select Model:", style={'font-size': '0.85rem'}),
+                
+                html.Label("Select Model:", style=label_style),
                 dcc.Dropdown(
                     id='model-dropdown',
-                    options=[{'label': f"{idx+1} - \"{model}\"", 'value': model} for idx, model in enumerate(models)],
+                    options=[
+                        {'label': f"{idx+1} - \"{model}\"", 'value': model} 
+                        for idx, model in enumerate(models)
+                    ],
                     value=models[0],
-                    style={'font-size': '0.85rem', 'height': '25px', 'padding': '5px'}
+                    style=dropdown_style
                 ),
                 html.Br(),
-                html.Label("Select Target Variable:", style={'font-size': '0.85rem'}),
+                
+                html.Label("Select Target Variable:", style=label_style),
                 dcc.Dropdown(
                     id='target-dropdown',
-                    options=[{'label': f"{idx+1} - \"{target}\"", 'value': target} for idx, target in enumerate(target_variables)],
+                    options=[
+                        {'label': f"{idx+1} - \"{target}\"", 'value': target} 
+                        for idx, target in enumerate(target_variables)
+                    ],
                     value=target_variables[0],
-                    style={'font-size': '0.85rem', 'height': '25px', 'padding': '5px'}
+                    style=dropdown_style
                 ),
                 html.Br(),
-                html.Label("Select X-axis Feature:", style={'font-size': '0.85rem'}),
+                
+                html.Label("Select X-axis Feature:", style=label_style),
                 dcc.Dropdown(
                     id='x-feature-dropdown',
-                    style={'font-size': '0.85rem', 'height': '25px', 'padding': '5px'}
+                    style=dropdown_style
                 ),
                 html.Br(),
-                html.Label("Select Y-axis Feature:", style={'font-size': '0.85rem'}),
+                
+                html.Label("Select Y-axis Feature:", style=label_style),
                 dcc.Dropdown(
                     id='y-feature-dropdown',
-                    style={'font-size': '0.85rem', 'height': '25px', 'padding': '5px'}
+                    style=dropdown_style
                 ),
                 html.Br(),
+                
                 html.Div(id='feature-inputs'),
             ], width=3),
             dbc.Col([
-                dcc.Graph(id='prediction-graph', style={'height': '125vh'}),
-                dcc.Store(id='camera-store')  # Store to keep camera state
+                dcc.Graph(
+                    id='prediction-graph', 
+                    style={'height': '125vh'}
+                ),
+                dcc.Store(id='camera-store')
             ], width=9)
-        ], align='start'
+        ], 
+        align='start'
     ),
 ], fluid=True)
-
 # Define your callbacks here
 
 # Callback to update feature dropdowns based on selected equation
@@ -333,15 +367,16 @@ def perform_prediction(selected_equation, selected_model_name, selected_target_v
         camera_data = relayoutData['scene.camera']
 
     fig.update_layout(
-        scene=dict(
-            xaxis_title=x_feature,
-            yaxis_title=y_feature,
-            zaxis_title=selected_target_variable,
-            camera=camera_data  # Apply the stored camera view
-        ),
-        autosize=True,
-        height=650,
-        margin=dict(l=50, r=50, b=65, t=10)
-    )
+    template='plotly_dark',  # Apply the dark theme
+    scene=dict(
+        xaxis_title=x_feature,
+        yaxis_title=y_feature,
+        zaxis_title=selected_target_variable,
+        camera=camera_data  # Maintain the stored camera view
+    ),
+    autosize=True,
+    height=650,
+    margin=dict(l=50, r=50, b=65, t=10)
+)
 
     return fig, camera_data

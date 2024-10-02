@@ -1,9 +1,13 @@
 import dash
 from dash import Dash, html, dcc
 import dash_bootstrap_components as dbc
+from dash_bootstrap_templates import load_figure_template
 
-# Initialize the Dash app
-app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"], use_pages=True)
+# Initialize the Dash app with the DARKLY theme
+app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY, "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"], use_pages=True)
+
+# Load the figure template for the DARKLY theme
+load_figure_template('DARKLY')
 
 server = app.server
 
@@ -45,7 +49,7 @@ footer = dbc.Container(
         ),
     ],
     fluid=True,
-    style={"backgroundColor": "#333333", "color": "#ffffff", "padding": "10px 0", "marginTop": "30px"}
+    style={"color": "#ffffff", "padding": "10px 0", "marginTop": "30px"}
 )
 
 # Create the layout of the app
@@ -57,7 +61,7 @@ app.layout = dbc.Container(
                 dash.page_container  # Render the pages dynamically here
             ],
             fluid=True,
-            style={ 'backgroundColor': '#f8f9fa'}  # Light background for main content area
+            # Remove backgroundColor style to let theme handle it
         ),
         footer  # Add footer at the bottom
     ],
