@@ -28,11 +28,29 @@ folders_and_features = {
     "model_multi_output_cl2_results": ['temps', 'Cl2_i']
 }
 
+
+feature_display_mapping = {
+    'temps': 'time',
+    'Cl2_i': 'Cl2 dose',
+    'NH4i': 'NH4+',
+    'TOCi': 'TOC',
+    'UV254i': 'abs254',
+    'pHi': 'pH',
+    'Br_i': 'Br',
+    'C1i': 'C1',
+    'C2i': 'C2',
+    'C3i': 'C3',
+    'C4i': 'C4',
+    'C5i': 'C5',
+    'C6i': 'C6',
+}
+
+
+
+
+
 # List of models
 models = ["Linear Regression",
-         "Lasso Regression",
-         "Ridge Regression",
-         "ElasticNet Regression",
          "Support Vector Regressor",
          "XGBoost",
          "Gradient Boosting",
@@ -139,16 +157,16 @@ layout = dbc.Container([
                 dcc.Dropdown(
                     id='equation-dropdown',
                     options=[
-                        {'label': f"{idx+1} - \"{eq}\"", 'value': eq} 
-                        for idx, eq in enumerate(folders_and_features.keys())
+                        {'label': f"{idx+1} - {list(map(lambda x: feature_display_mapping.get(x, x), features))}", 'value': eq}
+                        for idx, (eq, features) in enumerate(folders_and_features.items())
                     ],
                     value=list(folders_and_features.keys())[0],
                     style=dropdown_style,
-                    className='custom-dropdown'  # Add this class for custom styling
+                    className='custom-dropdown'
                 ),
                 html.Br(),
-                
-                html.Label("Select Model:", style=label_style),
+
+                html.Label("Select Machine Learning Algorithm:", style=label_style),
                 dcc.Dropdown(
                     id='model-dropdown',
                     options=[
@@ -157,10 +175,10 @@ layout = dbc.Container([
                     ],
                     value=models[0],
                     style=dropdown_style,
-                    className='custom-dropdown'  # Add this class for custom styling
+                    className='custom-dropdown'
                 ),
                 html.Br(),
-                
+
                 html.Label("Select Target Variable:", style=label_style),
                 dcc.Dropdown(
                     id='target-dropdown',
@@ -170,26 +188,26 @@ layout = dbc.Container([
                     ],
                     value=target_variables[0],
                     style=dropdown_style,
-                    className='custom-dropdown'  # Add this class for custom styling
+                    className='custom-dropdown'
                 ),
                 html.Br(),
-                
+
                 html.Label("Select X-axis Feature:", style=label_style),
                 dcc.Dropdown(
                     id='x-feature-dropdown',
                     style=dropdown_style,
-                    className='custom-dropdown'  # Add this class for custom styling
+                    className='custom-dropdown'
                 ),
                 html.Br(),
-                
+
                 html.Label("Select Y-axis Feature:", style=label_style),
                 dcc.Dropdown(
                     id='y-feature-dropdown',
                     style=dropdown_style,
-                    className='custom-dropdown'  # Add this class for custom styling
+                    className='custom-dropdown'
                 ),
                 html.Br(),
-                
+
                 html.Div(id='feature-inputs'),
             ], width=3),
             dbc.Col([
@@ -204,6 +222,8 @@ layout = dbc.Container([
     ),
 ], fluid=True)
 
+
+
 # Define your callbacks here
 
 # Callback to update feature dropdowns based on selected equation
@@ -216,7 +236,7 @@ layout = dbc.Container([
 )
 def update_feature_dropdowns(selected_equation):
     features = folders_and_features[selected_equation]
-    options = [{'label': f"{idx+1} - \"{feature}\"", 'value': feature} for idx, feature in enumerate(features)]
+    options = [{'label': f"{idx+1} - \"{feature_display_mapping.get(feature, feature)}\"", 'value': feature} for idx, feature in enumerate(features)]
     default_value_x = features[0]
     default_value_y = features[1] if len(features) > 1 else features[0]
     return options, default_value_x, options, default_value_y
@@ -233,8 +253,9 @@ def update_feature_inputs(selected_equation, x_feature, y_feature):
     inputs = []
     for feature in features:
         min_val, max_val = feature_ranges.get(feature, (0, 30))
+        display_name = feature_display_mapping.get(feature, feature)
         if feature == x_feature or feature == y_feature:
-            inputs.append(html.Label(f"Select range for {feature}:", style={'font-size': '0.85rem'}))
+            inputs.append(html.Label(f"Select range for {display_name}:", style={'font-size': '0.85rem'}))
             inputs.append(
                 dcc.RangeSlider(
                     id={'type': 'feature-slider', 'index': feature},
@@ -252,7 +273,7 @@ def update_feature_inputs(selected_equation, x_feature, y_feature):
             inputs.append(html.Br())
         else:
             default_val = (min_val + max_val) / 2
-            inputs.append(html.Label(f"Select value for {feature}:", style={'font-size': '0.85rem'}))
+            inputs.append(html.Label(f"Select value for {display_name}:", style={'font-size': '0.85rem'}))
             inputs.append(
                 dcc.Slider(
                     id={'type': 'feature-slider', 'index': feature},
@@ -269,6 +290,7 @@ def update_feature_inputs(selected_equation, x_feature, y_feature):
             )
             inputs.append(html.Br())
     return inputs
+
 
 # Callback to perform prediction and update the output and graph in real-time
 @callback(
@@ -373,16 +395,17 @@ def perform_prediction(selected_equation, selected_model_name, selected_target_v
         camera_data = relayoutData['scene.camera']
 
     fig.update_layout(
-    template='plotly_dark',  # Apply the dark theme
+    template='plotly_dark',
     scene=dict(
-        xaxis_title=x_feature,
-        yaxis_title=y_feature,
+        xaxis_title=feature_display_mapping.get(x_feature, x_feature),
+        yaxis_title=feature_display_mapping.get(y_feature, y_feature),
         zaxis_title=selected_target_variable,
-        camera=camera_data  # Maintain the stored camera view
+        camera=camera_data
     ),
     autosize=True,
     height=650,
     margin=dict(l=50, r=50, b=65, t=10)
 )
+
 
     return fig, camera_data
