@@ -22,7 +22,7 @@ navbar = dbc.Navbar(
                     [
                         dcc.Link(
                             f"{page['name']}", href=page["relative_path"],
-                            className="nav-link", style={'margin': '0 10px'}
+                            className="nav-link", style={'margin': '0 5%'}
                         )
                         for page in dash.page_registry.values()
                     ],
