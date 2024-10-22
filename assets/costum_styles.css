@@ -23,3 +23,27 @@
     background-color: #34495E !important;
     color: #ffffff !important;
 }
+
+/* Force fixed width layout for containers */
+.container, .container-fluid {
+    max-width: 1024px !important;  /* Set the width to desktop size */
+    margin: 0 auto;  /* Center the content */
+}
+
+/* Prevent mobile-specific styles from activating */
+@media (max-width: 768px) {
+    body {
+        width: 1024px !important;  /* Fixed width on mobile */
+        overflow-x: scroll;  /* Allow horizontal scroll if necessary */
+    }
+
+    /* Ensure rows and columns don't stack vertically on mobile */
+    .row {
+        flex-wrap: nowrap !important;  /* Prevent wrapping */
+    }
+
+    .col, .col-*, .col-sm-*, .col-md-*, .col-lg-*, .col-xl-* {
+        flex: 0 0 auto !important;
+        max-width: none !important;  /* Prevent columns from adjusting width */
+    }
+}
