@@ -14,7 +14,7 @@ load_figure_template('DARKLY')
 
 server = app.server
 
-# Define the navbar (will be displayed inline across all devices, no mobile hamburger menu)
+# Define the navbar (updated for better centering and full width layout)
 navbar = dbc.Navbar(
     dbc.Container(
         [
@@ -36,7 +36,7 @@ navbar = dbc.Navbar(
                     )
                     for page in dash.page_registry.values()
                 ],
-                className="d-flex justify-content-center",  # Align items horizontally
+                className="mx-auto",  # Center navbar links horizontally
                 navbar=True
             )
         ],
@@ -64,7 +64,7 @@ footer = dbc.Container(
 app.layout = dbc.Container(
     [
         # Meta tag to disable responsiveness and force desktop layout on all devices
-        html.Meta(name="viewport", content="width=1024"),
+        html.Meta(name="viewport", content="width=device-width, initial-scale=1.0"),
 
         # Navbar
         navbar,
