@@ -162,6 +162,7 @@ layout = dbc.Container([
                     ],
                     value=list(folders_and_features.keys())[0],
                     style=dropdown_style,
+                    searchable=False,
                     className='custom-dropdown'
                 ),
                 html.Br(),
@@ -175,6 +176,7 @@ layout = dbc.Container([
                     ],
                     value=models[0],
                     style=dropdown_style,
+                    searchable=False,
                     className='custom-dropdown'
                 ),
                 html.Br(),
@@ -188,6 +190,7 @@ layout = dbc.Container([
                     ],
                     value=target_variables[0],
                     style=dropdown_style,
+                    searchable=False,
                     className='custom-dropdown'
                 ),
                 html.Br(),
@@ -196,6 +199,7 @@ layout = dbc.Container([
                 dcc.Dropdown(
                     id='x-feature-dropdown',
                     style=dropdown_style,
+                    searchable=False,
                     className='custom-dropdown'
                 ),
                 html.Br(),
@@ -204,6 +208,7 @@ layout = dbc.Container([
                 dcc.Dropdown(
                     id='y-feature-dropdown',
                     style=dropdown_style,
+                    searchable=False,
                     className='custom-dropdown'
                 ),
                 html.Br(),
