@@ -24,26 +24,30 @@
     color: #ffffff !important;
 }
 
-/* Force fixed width layout for containers */
+/* Default for desktop - let Bootstrap handle responsiveness */
 .container, .container-fluid {
-    max-width: 1024px !important;  /* Set the width to desktop size */
-    margin: 0 auto;  /* Center the content */
+    max-width: 100% !important;  /* Ensure full width on desktop */
 }
 
-/* Prevent mobile-specific styles from activating */
+/* For mobile devices - force desktop layout with fixed width */
 @media (max-width: 768px) {
-    body {
-        width: 1024px !important;  /* Fixed width on mobile */
-        overflow-x: scroll;  /* Allow horizontal scroll if necessary */
+    .container, .container-fluid {
+        max-width: 1024px !important;  /* Set fixed width for mobile devices */
+        margin: 0 auto;  /* Center content */
     }
 
-    /* Ensure rows and columns don't stack vertically on mobile */
+    body {
+        width: 1024px !important;  /* Fix width on mobile */
+        overflow-x: scroll;  /* Enable horizontal scroll if needed */
+    }
+
+    /* Prevent mobile-specific styles from activating */
     .row {
-        flex-wrap: nowrap !important;  /* Prevent wrapping */
+        flex-wrap: nowrap !important;  /* Prevent rows from stacking */
     }
 
     .col, .col-*, .col-sm-*, .col-md-*, .col-lg-*, .col-xl-* {
         flex: 0 0 auto !important;
-        max-width: none !important;  /* Prevent columns from adjusting width */
+        max-width: none !important;  /* Prevent columns from adjusting */
     }
 }
