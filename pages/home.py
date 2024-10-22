@@ -17,7 +17,7 @@ layout = html.Div([
             '''
             DBP predictor is a website tool to help predict byproducts during wastewater chlorination.
             Our predictions are made using various Machine Learning algorithms and real world collected data. 
-            Our best models perform with R2=0.968 when compared to real world measurements.
+            Our best models have a median performance of about R2=0.94 when compared to real world measurements.
             Click on "visualisation" to start exploring our predictions.
             ''',
             style={'font-size': '16px', 'line-height': '1.6', 'text-align': 'justify', 'padding': '0px 50px'}
@@ -43,8 +43,8 @@ layout = html.Div([
         html.H3('Note:', style={'text-align': 'center', 'color': '#d9534f'}),
         html.P(
             '''
-            This website is still under construction, please feel free to share your feedback via mail 
-            in the "About" section!
+            This website is still under construction, by a very small team of exactly 1 person :) please feel free to share your feedback via mail 
+            in the "About" section about bugs, improvements, or simply a comment.
             ''',
             style={'font-size': '16px', 'line-height': '1.6', 'text-align': 'center', 'color': '#d9534f'}
         ),
